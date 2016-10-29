@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+
+ul {  
+    margin:0;  
+    padding:0;  
+}  
+
+.Qbox {  
+    width:900px;  
+    height:1000px;  
+    -webkit-border-radius: 5px; 
+	border: 1px solid rgb(227,227,227);
+    background-color: rgb(248,248,248); 
+    
+    position:relative;
+    bottom: 1050px; 
+}  
+
+.Qbox ul {  
+    height:28px;  
+}  
+
+
+.Qbox ul li {  
+	position:relative;
+	top:10px;
+	left:21px;
+	
+    float:left;  
+    width:122px;  
+    height:28px;  
+    line-height:28px;  
+    display:block;  
+    cursor:default; 
+    font-family:'Calibri'; 
+    font-size:15px;  
+    
+    text-align:center;  
+    font-weight:bold;  
+    background-color:#eee; 
+    color:rgb(66,139,202); 
+}  
+.Qbox ul li.cent {  
+    background-color:#b4b4b4;  
+    color:#fff;  
+    
+}  
+
+
+.Qbox ol.summarySentence {  
+    position:relative;
+    right:40px;
+    
+}  
+
+
+.Qbox ol.summarySentence li {  
+	position:relative;
+    left:12px; 
+     
+    line-height:28px;  
+    display:block; 
+    
+    cursor:default; 
+    font-family:'Calibri'; 
+    font-size:13px;  
+     
+    font-weight:bold;  
+    background-color:#eee; 
+    color:rgb(66,139,202); 
+}  
+.Qbox ol.summarySentence li.cent2 {  
+    background-color:#b4b4b4;  
+    color:#fff;  
+    
+}  
+
+
+
+.Qbox ol.summarySourcePassage {  
+    position:relative;
+    right:15px;
+}  
+
+
+.Qbox ol.summarySourcePassage li {  
+	position:relative;
+      
+      
+    line-height:28px;  
+    display:block;  
+    cursor:default; 
+    font-family:'Calibri'; 
+    font-size:13px;  
+    
+     
+    font-weight:bold;  
+    background-color:#eee; 
+    color:rgb(66,139,202); 
+} 
+ 
+
+
+
+
+
+#summaryBoxTitle{
+	clear:both;
+	position:relative;
+	top:30px;
+	left:25px;
+	color:rgb(255,67,4);
+	float:left;
+}
+
+#summaryBoxTitle2{
+	position:relative;
+	top:30px;
+	left:405px;
+	color:rgb(255,67,4);
+	float:left;
+}
+
+#summaryBoxTitle3{
+	position:relative;
+	top:30px;
+	left:425px;
+	color:rgb(255,67,4);
+	float:left;
+}
+
+#summaryBoxTitle4{
+	position:relative;
+	left:90px;
+	bottom:230px;
+	color:rgb(255,67,4);
+	float:left;
+}
+
+#summaryBox{
+	position:relative;
+	top:30px;
+	right:230px;
+	
+	width:400px;  
+    height:260px;  
+    -webkit-border-radius: 5px; 
+	border: 1px solid rgb(227,227,227);
+    background-color: #eee; 
+    
+   
+    
+}
+
+
+.Qbox div {  
+	clear: both; 
+    padding:10px 0;  
+    margin:0 auto; 
+    color:black;
+	font-size:15px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	overflow-y:auto; 
+}  
+
+
+#summarySourceBox{	
+	position:relative;
+	bottom:253px;
+	left:220px;
+	
+	
+	width:400px;  
+    height:260px;  
+    -webkit-border-radius: 5px; 
+	border: 1px solid rgb(227,227,227);
+    background-color: #eee; 
+    overflow-y:hidden;
+}
+
+.summaryContent{
+	position:relative;
+	bottom:20px;
+
+	}
+	
+.summarySourcePassage{
+	position:relative;
+	bottom:20px;
+}
+
+#pictureShowBox{
+	position:relative;
+	bottom:230px;
+	right:4px;
+	width:850px;  
+    height:260px;  
+    -webkit-border-radius: 5px; 
+	border: 1px solid rgb(227,227,227);
+    background-color: #eee; 
+    
+}

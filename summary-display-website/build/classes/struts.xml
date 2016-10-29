@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+    <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+    <constant name="struts.devMode" value="true" />
+
+    <package name="default" namespace="/" extends="struts-default">
+
+        <default-action-ref name="index" />
+
+        <global-results>
+            <result name="error">/error.jsp</result>
+        </global-results>
+
+        <global-exception-mappings>
+            <exception-mapping exception="java.lang.Exception" result="error"/>
+        </global-exception-mappings>
+
+        <action name="index">
+            <result type="redirectAction">
+                <param name="actionName">HelloWorld</param>
+                <param name="namespace">/example</param>
+            </result>
+        </action>
+    </package>
+
+    <include file="example.xml"/>
+
+    <!-- Add packages here -->
+    <package name="fuzzySearch" extends="struts-default" namespace="/">
+		<action name="fuzzySearch" class="action.fuzzySearchAction">
+			<result name="success">/fuzzySearchResult.jsp</result>
+			<result name="fail">/searchResultIsNull.jsp</result>
+		</action>
+	</package>
+	
+	
+    <package name="Search" extends="struts-default" namespace="/">
+    		<action name="phoneBrandChooseAction" class="action.phoneBrandChooseAction">
+    			<result name="success">/searchResult.jsp</result>
+    			<result name="fail">/searchResultIsNull.jsp</result>
+    		</action>
+    </package>
+
+	<package name="searchReview" extends="struts-default" namespace="/">
+		<action name="searchAllReviewsAction" class="action.searchAllReviewsAction">
+			<result name="success">/showAllReview.jsp</result>
+		</action>
+	</package>
+	 
+	<package name="insert" extends="struts-default" namespace="/">
+		<action name="readProcess" class="XML.saveXML" method="readProcess">
+			<result name="success">/ChooseMode.jsp</result>
+			<result name="fail">/searchResultIsNull.jsp</result>
+		</action>
+	</package>
+	
+	<package name="struts2.action" extends="struts-default" namespace="/">
+		<action name="PictureSearchAction" class="action.PictureSearchAction">
+		</action>
+	</package>
+
+	<package name="PictureShowAction.action" extends="struts-default" namespace="/">
+		<action name="PictureShowAction" class="action.PictureShowAction">
+		</action>
+	</package>
+	
+	
+	<package name="findPictureGroupNumber.action" extends="struts-default" namespace="/">
+		<action name="findPictureGroupNumber" class="action.findPictureGroupNumber">
+		</action>
+	</package>
+	
+	<package name="modifyPriceAction.action" extends="struts-default" namespace="/">
+		<action name="modifyPriceAction" class="action.modifyPriceAction">
+		</action>
+	</package>
+	
+</struts>
