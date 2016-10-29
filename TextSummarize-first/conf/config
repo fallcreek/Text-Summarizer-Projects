@@ -1,0 +1,25 @@
+## lines start with '#' will be ignored
+#######################################
+
+# specify the server listening port
+p=12321
+
+# specify the output log file path
+logfile=SummarizeServer.log
+
+# specify the stopword file
+stopword=data/stopwords/cn+en.txt
+
+# specify the sentence detection model file
+model=data/model/en-sent.bin
+
+# specify the word splitter server type : socket (default) or post
+# server type must be 'socket' or 'post' (without '), others are invalid
+servertype=socket
+
+# if servertype=socket, then the following 'ip' and 'port' must be specified
+ip=118.192.65.79
+port=12131
+
+# if servertype=post, then the following 'url' must be specified
+url=http://218.245.4.117:8080/ThulacJni2/wordsegment.jsp

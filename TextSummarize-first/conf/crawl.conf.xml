@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf store_path="./article_data" proxy_path="./conf/proxynew.list">
+<!-- 如果flag=0，则表示不爬取该item；-->    
+    <item id="00001001" name="iphone 6" flag="1">
+        <source source="zol">http://detail.zol.com.cn/274/273715/article.shtml</source>       
+        <source source="pconline">http://product.pconline.com.cn/pdlib/471016_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/844554/pingce.shtml</source>
+    </item>
+    
+    <item id="00001002" name="iphone 5s" flag="1">
+        <source source="zol">http://detail.zol.com.cn/341/340414/article.shtml</source>
+        <source source="sina">http://tech.sina.com.cn/mobile/models/13014.html</source>
+    </item>
+    
+    <item id="00001003" name="iphone 6 plus" flag="1">
+        <source source="pconline">http://product.pconline.com.cn/pdlib/570024_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/844600/pingce.shtml</source>
+    </item>
+    
+    <item id="00001004" name="iphone 5" flag="1">
+        <source source="it168">http://product.it168.com/detail/doc/464002/pingce.shtml</source>
+        <source source="sina">http://tech.sina.com.cn/mobile/models/12690.html</source>
+    </item>
+    
+    <item id="00001005" name="iphone 5c" flag="1">
+        <source source="zol">http://detail.zol.com.cn/296/295505/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/537028_review1.html</source>
+    </item>
+    
+    <item id="00001006" name="Galaxy Note5" flag="1">
+        <source source="zol">http://detail.zol.com.cn/392/391739/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/578605_review1.html</source>
+    </item>
+    
+    <item id="00001007" name="Galaxy S6 Edge" flag="1">
+        <source source="zol">http://detail.zol.com.cn/393/392292/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/581462_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/1081772/pingce.shtml</source>
+    </item>
+    
+    <item id="00001008" name="Galaxy S6 Edge+" flag="1">
+        <source source="zol">http://detail.zol.com.cn/402/401594/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/595649_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/1105464/pingce.shtml</source>
+    </item>
+    
+    <item id="00001009" name="Galaxy Note4" flag="1">
+        <source source="zol">http://detail.zol.com.cn/368/367005/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/565502_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/782785/pingce.shtml</source>
+    </item>
+    
+    <item id="00001010" name="Galaxy S6" flag="1">
+        <source source="zol">http://detail.zol.com.cn/386/385541/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/576986_review1.html</source>
+    </item>
+    
+    <item id="00001011" name="Galaxy S5" flag="1">
+        <source source="zol">http://detail.zol.com.cn/353/352574/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/565039_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/712971/pingce.shtml</source>
+        <source source="sina">http://tech.sina.com.cn/mobile/models/14074.html</source>
+    </item>
+    
+    <item id="00001012" name="Galaxy A8" flag="1">
+        <source source="zol">http://detail.zol.com.cn/398/397665/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/589133_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/1099954/pingce.shtml</source>
+    </item>
+    
+    <item id="00001013" name="Galaxy A7" flag="1">
+        <source source="pconline">http://product.pconline.com.cn/pdlib/581687_review1.html</source>
+        <source source="sina">http://tech.sina.com.cn/mobile/models/18106.html</source>
+    </item>
+    
+    <item id="00001014" name="xiaomi4" flag="1">
+        <source source="zol">http://detail.zol.com.cn/368/367969/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/558301_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/729280/pingce.shtml</source>
+    </item>
+    
+    <item id="00001015" name="红米note2" flag="1">
+        <source source="zol">http://detail.zol.com.cn/391/390237/article.shtml</source>
+        <source source="it168">http://product.it168.com/detail/doc/875533/pingce.shtml</source>
+    </item>
+    
+    <item id="00001016" name="honor7" flag="1">
+        <source source="zol">http://detail.zol.com.cn/387/386205/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/594969_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/1099338/pingce.shtml</source>
+    </item>
+    
+    <item id="00001017" name="honor6" flag="1">
+        <source source="zol">http://detail.zol.com.cn/384/383798/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/571243_review1.html</source>
+    </item>
+    
+    <item id="00001018" name="R7" flag="1">
+        <source source="zol">http://detail.zol.com.cn/399/398466/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/589847_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/1099669/pingce.shtml</source>
+    </item>
+    
+    <item id="00001019" name="魅蓝" flag="1">
+        <source source="zol">http://detail.zol.com.cn/393/392849/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/581396_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/1059918/pingce.shtml</source>
+    </item>
+    
+    <item id="00001020" name="魅蓝Note2" flag="1">
+        <source source="zol">http://detail.zol.com.cn/401/400842/article.shtml</source>
+        <source source="pconline">http://product.pconline.com.cn/pdlib/591057_review1.html</source>
+    </item>
+    
+    <item id="00001021" name="MX5" flag="1">
+        <source source="pconline">http://product.pconline.com.cn/pdlib/585403_review1.html</source>
+        <source source="it168">http://product.it168.com/detail/doc/1099364/pingce.shtml</source>
+    </item>
+</conf>

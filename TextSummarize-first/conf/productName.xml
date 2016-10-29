@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf store_path="./article_data" proxy_path="./conf/proxynew.list">
+<!-- 如果flag=0，则表示不爬取该item；-->    
+    <item id="00001001" name="iphone 6" flag="1">
+        <name>iphone 6</name>
+        <name>iphone6</name>
+        <name>iPhone 6</name>
+        <name>iPhone6</name>
+        <name>苹果 6</name>
+        <name>苹果6</name>
+        
+    </item>
+    
+    <item id="00001002" name="iphone 5s" flag="1">
+        <name>5s</name>
+        <name>5S</name>
+    </item>
+    
+    <item id="00001003" name="iphone 6 plus" flag="1">
+        <name>6 plus</name>
+        <name>6plus</name>
+        <name>6 Plus</name>
+        <name>6Plus</name>
+    </item>
+    
+    <item id="00001004" name="iphone 5" flag="1">
+        <name>iphone 5</name>
+        <name>iphone5</name>
+        <name>iPhone 5</name>
+        <name>iPhone5</name>
+        <name>苹果 5</name>
+        <name>苹果5</name>
+    </item>
+    
+    <item id="00001005" name="iphone 5c" flag="1">
+        <name>5c</name>
+        <name>5C</name>
+    </item>
+    
+    <item id="00001006" name="Galaxy Note5" flag="1">
+        <name>Note5</name>
+        <name>note5</name>
+        <name>Note 5</name>
+        <name>note 5</name>
+    </item>
+    
+    <item id="00001007" name="Galaxy S6 Edge" flag="1">
+        <name>S6Edge</name>
+        <name>S6edge</name>
+        <name>s6Edge</name>
+        <name>s6edge</name>
+        <name>S6 Edge</name>
+        <name>S6 edge</name>
+        <name>s6 Edge</name>
+        <name>s6 edge</name>
+        
+    </item>
+    
+    <item id="00001008" name="Galaxy S6 Edge+" flag="1">
+        <name>S6Edge+</name>
+        <name>S6edge+</name>
+        <name>s6Edge+</name>
+        <name>s6edge+</name>
+        <name>S6 Edge+</name>
+        <name>S6 edge+</name>
+        <name>s6 Edge+</name>
+        <name>s6 edge+</name>
+    </item>
+    
+    <item id="00001009" name="Galaxy Note4" flag="1">
+        <name>Note4</name>
+        <name>note4</name>
+        <name>Note 4</name>
+        <name>note 4</name>
+    </item>
+    
+    <item id="00001010" name="Galaxy S6" flag="1">
+        <name>s6</name>
+        <name>S6</name>
+    </item>
+    
+    <item id="00001011" name="Galaxy S5" flag="1">
+        <name>s5</name>
+        <name>S5</name>
+    </item>
+    
+    <item id="00001012" name="Galaxy A8" flag="1">
+        <name>a8</name>
+        <name>A8</name>
+    </item>
+    
+    <item id="00001013" name="Galaxy A7" flag="1">
+        <name>a7</name>
+        <name>A7</name>
+    </item>
+    
+    <item id="00001014" name="xiaomi4" flag="1">
+        <name>小米4</name>
+        <name>小米 4</name>
+        <name>小米手机4</name>
+    </item>
+    
+    <item id="00001015" name="红米note2" flag="1">
+        <name>红米Note2</name>
+        <name>红米note2</name>
+    </item>
+    
+    <item id="00001016" name="honor7" flag="1">
+        <name>荣耀7</name>
+    </item>
+    
+    <item id="00001017" name="honor6" flag="1">
+        <name>荣耀6</name>
+    </item>
+    
+    <item id="00001018" name="R7" flag="1">
+        <name>R7</name>
+    </item>
+    
+    <item id="00001019" name="魅蓝" flag="1">
+        <name>魅蓝</name>
+    </item>
+    
+    <item id="00001020" name="魅蓝Note2" flag="1">
+        <name>魅蓝Note2</name>
+        <name>魅蓝note2</name>
+    </item>
+    
+    <item id="00001021" name="MX5" flag="1">
+        <name>MX5</name>
+    </item>
+    
+    <item id="00001022" name="other" flag="0">
+    	<name>Z9</name>
+    	<name>Z3</name>
+    	<name>A5</name>
+    	<name>Moto X</name>
+    	<name>moto X</name>
+    	<name>小米Note</name>
+    	<name>M5</name>
+    	<name>M8</name>
+    	<name>VIBEShot</name>
+    	<name>P8</name>
+    	<name>Xshot</name>
+    	<name>一加2</name>
+    	<name>ELIFE S5.1</name>
+    	<name>iPhone 4</name>
+    	<name>N9</name>
+    	<name>MX4</name>
+    	<name>保护套</name>
+    	<name>小米一</name>
+    	<name>小米er</name>
+    	<name>NoteⅡ</name>
+    	<name>S4</name>
+    	<name>Ascend D1 XL</name>
+    	<name>G2</name>
+    	<name>G3</name>
+    	<name>Lumia</name>
+    	<name>HTC One</name>
+    	<name>LG G2</name>
+    	<name>锤子T1</name>
+    	<name>Find 7</name>
+    	<name>nubia Z7</name>
+    	<name>IUNI U2</name>
+    </item>
+</conf>
